@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Notification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background-color: #673AB7;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .content {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .message-box {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            border: 1px solid #e0e0e0;
+            margin: 15px 0;
+        }
+        .footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            font-size: 12px;
+            color: #666;
+            text-align: center;
+        }
+        .library-info {
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <h1>🔔 ${title}</h1>
+</div>
+
+<div class="content">
+    <p>Dear <strong>${userName}</strong>,</p>
+
+    <div class="message-box">
+        <p>${message}</p>
+    </div>
+
+    <div class="library-info">
+        <h3>Library Information:</h3>
+        <p><strong>Location:</strong> 123 Library Street, Knowledge City</p>
+        <p><strong>Phone:</strong> (123) 456-7890</p>
+        <p><strong>Email:</strong> support@smartlibrary.com</p>
+        <p><strong>Hours:</strong> Mon-Fri: 9AM-6PM, Sat: 10AM-4PM, Sun: Closed</p>
+    </div>
+
+    <p>Thank you for being a valued member of our library community!</p>
+</div>
+
+<div class="footer">
+    <p>This is an automated message from the Smart Library System.</p>
+    <p>Please do not reply to this email.</p>
+    <p>© ${currentYear} Smart Library System. All rights reserved.</p>
+    <p>Notification sent: ${currentDate}</p>
+</div>
+</body>
+</html>
