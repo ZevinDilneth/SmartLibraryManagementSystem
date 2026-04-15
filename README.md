@@ -389,11 +389,4 @@ Go to **Notifications** to see the in-app log, check scheduler status, or send a
 | Data Storage | In-memory HashMaps |
 | IDE | IntelliJ IDEA |
 
----
 
-## Author
-
-**Sevin Dilneth**  
-Student ID: K2558793  
-KU BSc in Computing — ESOFT Metro Campus  
-Module: CI6115 – Programming: Patterns and Algorithms
