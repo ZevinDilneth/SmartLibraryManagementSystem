@@ -292,7 +292,8 @@ SmartLibraryManagementSystem/
 
 ![Class Diagram](screenshots/class_diagram.png)
 
-Pro Tip* Don't even try i cant either
+**Pro Tip*** Don't even try i cant either
+
 ---
 
 ## Email Notification System
